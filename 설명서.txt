@@ -24,6 +24,8 @@ http://localhost:3001/board
 특정 게시글 한개 가져오기
 http://localhost:3001/board/id
 
+id에 게시글 번호를 넣으면 된다.
+
 예시
 http://localhost:3001/board/1
 하면 1번 아이디 게시글 내용을 가져옴
@@ -35,7 +37,7 @@ POST
 http://localhost:3001/board
 
 필요 데이터 
-body 
+body 안에 
 
 title : '제목'
 content : '내용'
@@ -44,7 +46,9 @@ user : '유저 아이디'
 DELETE
 
 게시글 삭제하기
-http://localhost:3001/board/게시글 아이디
+http://localhost:3001/board/id
+
+id에 게시글 번호를 넣으면 된다.
 
 예시
 http://localhost:3001/board/1
